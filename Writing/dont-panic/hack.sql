@@ -13,5 +13,7 @@ WHERE
 	AND "new_username" = 'admin';
 
 -- Add false data to throw the company off of your trail.
+
 INSERT INTO "user_logs" ("type", "old_username", "new_username", "old_password", "new_password")
 VALUES ('update', 'admin', 'emily33', '982c0381c279d139fd221fce974916e7', '44bf025d27eea66336e5c1133c3827f7');
+

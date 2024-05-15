@@ -3,7 +3,7 @@ CREATE TABLE Patients (
     patient_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
-    date_of_birth DATE,
+    da te_of_birth DATE,
     gender ENUM('Male', 'Female', 'Other'),
     address VARCHAR(255),
     phone VARCHAR(20),
